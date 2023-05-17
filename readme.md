@@ -1,3 +1,7 @@
+<p align="center">
+<img src="src/assets/logo.png" alt="logo" width="200">
+</p>
+
 # Pagina de Login - A Principal Bebê e Mamãe
 
 Bem-vindo ao repositório da página de login desenvolvida para a empresa A Principal Bebê e Mamãe! Este projeto foi desenvolvido utilizando React, juntamente com as bibliotecas Chakra UI, React Hook Forms e Axios.
@@ -24,25 +28,24 @@ Antes de executar o projeto, certifique-se de ter instalado o seguinte:
 
 1. Clone este repositório em sua máquina local.
    ```bash
-   git clone https://github.com/xulioguimaraes/page-login-A-Principal-Bebe-e-Mamae.git 
+   git clone https://github.com/xulioguimaraes/page-login-A-Principal-Bebe-e-Mamae.git
    ```
 2. Navegue até o diretório do projeto.
-   ```bash 
+   ```bash
    cd nome-do-repositorio
    ```
 3. Instale as dependências do projeto.
-   ```bash 
+
+   ```bash
    npm install
    ```
 
 4. Inicie o servidor de desenvolvimento.
-   ```bash 
+   ```bash
    npm run dev
    ```
-4. O projeto estará disponível em http://localhost:5173/ no seu navegador.
+5. O projeto estará disponível em http://localhost:5173/ no seu navegador.
 
 ## Contribuição
+
 Se você deseja contribuir com este projeto, fique à vontade para enviar pull requests. Sinta-se também à vontade para relatar problemas ou fornecer sugestões na seção de "Issues".
-
-
-
