@@ -1,6 +1,7 @@
-import { Box, Flex, Heading, chakra } from "@chakra-ui/react";
+import { Box, Flex, Heading, Link, Text, chakra } from "@chakra-ui/react";
 import LeftIMG from "../assets/left-img.svg";
 import LogoFull from "../assets/logo-full.png";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 export const LeftImg = () => {
   return (
@@ -9,6 +10,7 @@ export const LeftImg = () => {
       justify={"center"}
       align={"center"}
       px={4}
+      position={"relative"}
       flexDirection={"column"}
     >
       <Flex
@@ -50,6 +52,30 @@ export const LeftImg = () => {
       </Flex>
 
       <chakra.img flex={1} maxW={"450px"} px={4} w={"100%"} src={LeftIMG} />
+      <Text
+        position={"absolute"}
+        left={3}
+        fontSize={'sm'}
+        bottom={1}
+        color={"whiteAlpha.800"}
+        display={"flex"}
+        flexWrap={"nowrap"}
+      >
+        por{" "}
+        <Link
+          display={"flex"}
+          alignItems={"center"}
+          href="https://www.instagram.com/xulioguimaraes/"
+          isExternal
+          pl={1}
+          textDecoration={'revert'}
+          _hover={{
+            color: "whiteAlpha.500"
+          }}
+        >
+          xulio{" "}<HiOutlineExternalLink />
+        </Link>
+      </Text>
     </Flex>
   );
 };
